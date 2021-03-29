@@ -1,0 +1,38 @@
+<html>
+<head><title>STUDENT</title></head>
+<body>
+<form>
+<fieldset>
+<legend>BIODATA</legend>
+<h3>STUDENT REGISTRATION FORM</h3>
+NAME<input type="text" name="name"><br><br>
+GENDER<input type="radio" value="male" name="gender">male<input type="radio"
+ value="female" name="gender">female<input type="radio" value="others"
+ name="gender">others<br><br>
+ADDRESS<textarea cols="80" rows="5" value="address">
+</textarea><br><br>
+PINCODE<input type="text" name="number"><br><br>
+<br>STATE<select>
+<option>Kerala</option>
+<option>Tamilnadu</option>
+<option>Goa</option>
+<option>Karnataka</option>
+</select><br><br>
+PHONE NO<input type="text" name="country code" value="+91" size="2">
+<input type="text" name="phone" size="10"><br><br>
+<form name="QUALIFICATIONS">
+<input type="checkbox" name="SSLC">SSLC<input type="checkbox" name="HSE/VHSE">HSE/
+VHSE<input type="checkbox" name="DEGREE">DEGREE<input type="checkbox"
+ name="PG">PG<br><br>
+COURSE NAME<select>
+<option>MCA</option>
+<option>Civil</option>
+<option>Electronics and Communication</option>
+<option>Electronics and Electrical</option>
+<option>Mechanical</option>
+<option>CS/IT</option>
+</select><br><br>
+SUBMIT<input type="button" name="SUBMIT" value="SUBMIT">
+</fieldset></form>
+</body>
+</html>
